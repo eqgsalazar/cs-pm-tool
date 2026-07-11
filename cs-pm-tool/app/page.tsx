@@ -117,7 +117,7 @@ export default function Home() {
         <div className="text-center py-16 bg-white rounded-xl border border-gray-200">
           <p className="text-gray-500 text-lg">No projects yet</p>
           <p className="text-gray-400 text-sm mt-1">
-            Click "+ New Project" to get started
+            Click + New Project to get started
           </p>
         </div>
       ) : (
