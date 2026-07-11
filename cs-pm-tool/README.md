@@ -2,7 +2,7 @@
 
 > AI-powered project monitoring for construction, engineering, and architectural design firms.
 
-**Live app:** [URL will be added after deployment]
+**Live app:** https://cs-pm-tool.vercel.app
 
 ## What It Does
 
