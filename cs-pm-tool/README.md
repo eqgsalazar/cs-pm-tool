@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CS PM Tool
+
+> AI-powered project monitoring for construction, engineering, and architectural design firms.
+
+**Live app:** [URL will be added after deployment]
+
+## What It Does
+
+CS PM Tool lets project managers paste their project updates and instantly get an AI-generated status summary including:
+
+- 🟢🟡🔴 **RAG status** (Red / Amber / Green) for each project
+- ⚠️ **Key risks and blockers** extracted from your updates
+- ✅ **Action items with named owners and due dates**
+- 📝 **Summary narrative** for use in standups and reports
+
+## Tech Stack
+
+- **Frontend:** Next.js 14 + Tailwind CSS
+- **AI:** Gemini 3.5 Flash API
+- **Database:** Supabase
+- **Deploy:** Vercel + GitHub Actions
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repo and install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/eqgsalazar/cs-pm-tool.git
+cd cs-pm-tool
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Create a `.env.local` file with your keys:
+NEXT_PUBLIC_SUPABASE_URL=https://rgtlzdboaekppzpitjir.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJndGx6ZGJvYWVrcHB6cGl0amlyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM3NTAxODEsImV4cCI6MjA5OTMyNjE4MX0.mkmH306diaBJYr1NZwQVEWWmDzcMt9VnSSalevsjZUI
+GEMINI_API_KEY=AIzaSyARyyOf095d5-ltI8uikugDUkJdjkds0-M
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run locally:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Running Tests
+```bash
+npm test
+```
 
-## Learn More
+## Demo
 
-To learn more about Next.js, take a look at the following resources:
+[Link to demo video — add after recording]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Reflection
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[Link to reflection — add before submission]
