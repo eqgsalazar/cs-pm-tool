@@ -32,7 +32,7 @@ npm install
 2. Create a `.env.local` file with your keys:
 NEXT_PUBLIC_SUPABASE_URL=https://rgtlzdboaekppzpitjir.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJndGx6ZGJvYWVrcHB6cGl0amlyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM3NTAxODEsImV4cCI6MjA5OTMyNjE4MX0.mkmH306diaBJYr1NZwQVEWWmDzcMt9VnSSalevsjZUI
-GEMINI_API_KEY=AIzaSyARyyOf095d5-ltI8uikugDUkJdjkds0-M
+GEMINI_API_KEY=AQ.Ab8RN6IMVUBFfOe8gJnnqaAZyiMwfaYiVbRw9WFtigukoT97IQ
 
 3. Run locally:
 ```bash
@@ -46,8 +46,4 @@ npm test
 
 ## Demo
 
-[Link to demo video — add after recording]
-
-## Reflection
-
-[Link to reflection — add before submission]
+[Link to demo video — (https://www.loom.com/share/da4e981041dd4ac58fc0a9948393cba1)]
